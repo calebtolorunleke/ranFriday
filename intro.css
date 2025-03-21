@@ -1,0 +1,238 @@
+/* h1{
+    color: red;
+}
+
+body{
+    background-color:blueviolet;
+}
+
+p{
+    font-size: 20px;
+    color: red;
+} */
+
+/* .bird{
+    color: blue;
+}
+
+.insect{
+    color: green;
+}
+.flying{
+    text-decoration: underline;
+}
+
+h2{
+    font-size: small;
+}
+
+#loremID1{
+    line-height: 1.5;
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+
+#goto{
+    text-decoration: none;
+    font-style: italic;
+    color: blue;
+}
+
+.random{
+    text-decoration: line-through;
+}
+
+#bold{
+    font-weight: bolder;
+    font-family: "Baloo Paaji 2", sans-serif;
+}
+
+p{
+    color: red;
+}
+h2{
+    color: rgb(rgba(212, 255, 0, 0.618), green, blue);
+}
+
+li{
+    list-style-type: circle;
+}
+
+ol li{
+    color: rgb(177, 12, 141);
+    list-style-type: lower-alpha;
+}
+
+#bold, h2, ol{
+    font-style: italic;
+}
+
+#intro>a{
+    color: grren;
+} */
+
+/* #firsth1{
+    background-color: green;
+    text-align: center;
+}
+
+#fiirstul{
+    background-color: greenyellow;
+    width: 30%;
+}
+
+#firstcsec{
+    padding: 20px;
+}
+
+#img1{
+    width: 40%;
+    
+}
+
+.lengthy{
+    width: 300px;
+    background-color: blue;
+    height: 100px;
+}
+.square{
+    border: 2px solid red;
+    width: 50px;
+    height: 300px;
+}
+
+img{
+    border: 5px solid black;
+    padding: 5px;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.mysite{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.firstdiv{
+    width: 30%;
+    background-color: rgb(32, 241, 9);
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    
+}
+.seconddiv{
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+}
+.mysite img{
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+    position: absolute;
+    margin-top: 20%;
+    margin-right: 40%;
+}
+.firstdiv h1,h2{
+    position: relative;
+    width: 70%;
+    margin: 20px;
+    top: 30%;
+    
+}
+
+.seconddiv h1,h3,p,h5,ol,ul{
+    position: relative;
+    width: 70%;
+    margin: 20px;
+    top: 10%;
+    left: 10%;
+    line-height: 1.5rem;
+    
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+
+@media (max-width:912px) {
+    .mysite img{
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+    position: absolute;
+    margin-top: 20%;
+    margin-right: 40%;
+
+    }
+    .firstdiv h1,h2{
+        position: relative;
+        width: 70%;
+        margin: 20px;
+        top: 10%;
+        
+    }
+}
+
+@media (max-width:540px) {
+    .mysite img{
+    height: 60px;
+    width: 60px;
+    border-radius:50%;
+    position: absolute;
+    margin-top: 20%;
+    margin-right: 40%;
+
+    }
+    .firstdiv h1,h2{
+        position: relative;
+        width: 70%;
+        margin: 20px;
+        top: 10%;
+        
+    }
+    h1,h2{
+        font-size: small;
+    }
+}
+
+@media (max-width:450px) {
+    .mysite img{
+    height: 60px;
+    width: 60px;
+    border-radius:50%;
+    position: absolute;
+    margin-top: 20%;
+    margin-right: 40%;
+
+    }
+    .firstdiv h1,h2{
+        position: relative;
+        width: 70%;
+        margin: 5px;
+        top: 10%;
+        
+    }
+    h1,h2{
+        font-size: small;
+    }
+    .seconddiv{
+        font-size: small;
+    }
+    .seconddiv h1,h3,p,h5,ol,ul{
+        position: relative;
+        width: 70%;
+        margin: 10px;
+        top: 5%;
+        left: 10%;
+        margin-right: -15px;
+        line-height: 1.5rem;
+        
+    }
+}
